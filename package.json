@@ -1,0 +1,53 @@
+{
+  "name": "prowl-ip-reputation",
+  "version": "1.0.0",
+  "description": "Prowl is an API that allows you to send IP and in return obtain the reputation of the IP as well as indicators of attacks and indicators of compromise associated with the address. Lupovis monitors the web in real time and identifies malicious IP addresses for you.",
+  "main": "./dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lupovis/Prowl-API.git"
+  },
+  "keywords": [
+    "nodejs",
+    "security",
+    "osint",
+    "geolocation",
+    "cybersecurity",
+    "anti-spam",
+    "infosec",
+    "ip-lookup",
+    "anti-bot",
+    "antispam",
+    "ip-blacklist",
+    "security-tools",
+    "reconnaissance",
+    "ip-reputation",
+    "indicators-of-compromise",
+    "ip-reputation-checker",
+    "ip-lookup-api",
+    "ip-blocklist",
+    "ipscore",
+    "indicators-of-attack"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Lupovis/Prowl-API/issues"
+  },
+  "homepage": "https://github.com/Lupovis/Prowl-API#readme",
+  "dependencies": {
+    "axios": "1.2.2"
+  },
+  "devDependencies": {
+    "@types/jest": "29.2.5",
+    "jest": "29.3.1",
+    "ts-jest": "29.0.3"
+  }
+}
