@@ -4,11 +4,11 @@ Prowl is an API that allows you to send IP and in return obtain the reputation o
 
 ## Getting Started
 
-To start using Prowl API, you will need to follow these steps
+To start using the Prowl API, you will need to follow these steps:
 
-1. Go to prowl page in aws marketplace - <https://aws.amazon.com/marketplace/pp/prodview-cr64x4lse5uui>
-2. Purchase the prowl subscription and it will give you **prowl base url** and **api token** that you can use for serching ip reputation
-3. Use this code snippet to do ip reputation search
+1. Go to prowl page in the AWS marketplace - <https://aws.amazon.com/marketplace/pp/prodview-cr64x4lse5uui>
+2. Obtain the Prowl **base url** and **API token** to use for searching IP reputation
+3. Use this code snippet to do an IP reputation search
 
    ```js
    import { ProwlClient } from 'prowl-ip-reputation'
@@ -31,4 +31,4 @@ These are the APIs available to use
 
 - getIpReputation(ipAddress)
 
-  This method will give you ip reputation information for valid ip address or undefiend for invalid ip address and invalid configuration
+  This method will give you the reputation information for a valid IP address.
